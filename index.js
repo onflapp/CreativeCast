@@ -85,5 +85,5 @@ function getCCFolderAssets() {
             console.log("getCCFolderAssets false")
             handleCsdkLogin(true, getCCFolderAssets);
         }
-    }
+    });
 }
