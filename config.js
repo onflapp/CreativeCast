@@ -1,0 +1,3 @@
+var CONFIG = {
+    CSDK_CLIENT_ID:c4e128d6bdc44b468863e4d5433c4f5c
+}
