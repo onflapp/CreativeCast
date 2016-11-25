@@ -50,7 +50,10 @@ function handleCsdkLogin(triggerLogin, callback) {
         } else if (triggerLogin) {
             // Trigger a login
             console.log("handleCsdkLogin()")
-            AdobeCreativeSDK.login(function(){handleCsdkLogin(true, callback)});
+            AdobeCreativeSDK.login(function(x){
+                console.log('xxxxxxxxxxx');
+                handleCsdkLogin(true, callback)
+            });
         }
     });
 }
