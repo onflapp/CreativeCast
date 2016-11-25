@@ -1,9 +1,3 @@
-/*
-  INTIALIZATION  
-*/
-/* Handle logout button visibility on DOM load */
-document.addEventListener('DOMContentLoaded', function(){handleCsdkLogin(false)}, false);
-
 /* Initialize the AdobeCreativeSDK object */
 AdobeCreativeSDK.init({
     /* Add your Client ID (API Key) */
